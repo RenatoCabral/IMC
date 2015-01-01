@@ -179,7 +179,7 @@ public class Indice extends javax.swing.JFrame {
             String resultado = null;
             
             if(imc  <= 18)
-                resultado = "Abaixo do peso";
+                resultado = "Abaixo do peso ideal";
             else if(imc  >= 18 && imc < 25)
                 resultado = "Peso Ideal";
             else if(imc >= 30 && imc < 34.99)
